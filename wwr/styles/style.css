@@ -1,3 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=RocknRoll+One&display=swap');
+
+.home-title, h4,.book, .join {
+    font-family: "RocknRoll One", Helvetica, sans-serif;
+    font-size: 2em;
+}
+
+body nav {
+    font-family: "RocknRoll One", Helvetica, sans-serif;
+    font-size: 1.5em;
+}
+
+#logo_link
+{
+    padding-top: 5px;
+}
+.msg h2,.home-grid{
+    font-family: "Fira Sans", Helvetica, sans-serif;
+  }
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -6,6 +26,7 @@ nav a{
     color: #01001D;
     text-align: center;
     text-decoration: none;
+    padding: 35px;
   }
 #hero-msg h1, #hero-msg h4{
     text-align: center;
@@ -22,6 +43,12 @@ main section{
 }
 body{
     background-color:#fcfbfb;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
 }
 header{
     background-color:#96DEFF;
@@ -35,33 +62,64 @@ nav a:hover{
 {
     color:#002aa7;
 }
+.home-title {
+    margin-top: 10px;
+}
 .book, .join{
     color:#01001D;
     background-color:#fcfbfb;
     text-decoration: none;
+    font-size: 18px;
+    margin-top: 50px;
+    padding: 15px 30px;
+    border-radius: 5px;
 }
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+main section img {
+    box-sizing: border-box;
+}
+
 .book:hover, .join:hover{
     color:#faf5f5;
     background-color:#01001D;
 }
 .msg{
     background-color:#96DEFF;
+    line-height: 1.5em;
+    padding: 35px;
+}
+.msg p
+{
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 .msg h2, .msg p
 {
     color:#01001D;
 }
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
 footer{
     background-color:#96DEFF;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
+footer .social img
+{
+    padding-top: 15px;
 }
 footer a
 {
-    text-align: center;
+    font-family: "RocknRoll One", Helvetica, sans-serif;
     color: #01001D;
     text-decoration: none;
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img{
     width: 100%;
