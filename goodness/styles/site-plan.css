@@ -1,36 +1,36 @@
-
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
-Fonts are separated by a & */
+Fonts are separated by a | */
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=RocknRoll+One&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #002aa7   ;
-  --secondary-color: #96DEFF ;
-  --accent1-color: #396e94;
-  --accent2-color: #2B24B0;
+  --primary-color: #C4A484   ;
+  --secondary-color: #5F5143 ;
+  --accent1-color: #01001D;
+  --accent2-color: #FFFAFA;
+
   /* change the values below to your chosen font(s) */
   --heading-font: "Fira Sans";
   --paragraph-font: "RocknRoll One", Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #002aa7;  /* headlines on a white background */ 
-  --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #002aa7; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: 01001D; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #a4bdff  ;
-  --nav-link-color: #396E94;
-  --nav-background-color: #96DEFF;
-  --nav-hover-link-color: #faf5f5;
-  --nav-hover-background-color: #01001D;
+  --headline-color-on-white: #01001D;  /* headlines on a white background */ 
+  --headline-color-on-color: #01001D; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #5F5143; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: #01001D; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #C4A484  ;
+  --nav-link-color: #01001D;
+  --nav-background-color: #C4A484;
+  --nav-hover-link-color: #01001D;
+  --nav-hover-background-color: #5F5143;
 }
 
 
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
 body {
-  max-width: 960px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 4em;
   font-size: 18px;
@@ -39,7 +39,6 @@ body {
 img {
   display: block;
   margin: 0 auto;
-  max-width: 300px;
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
@@ -62,6 +61,7 @@ header {
 header > h1, header > h2 {
   color: var(--headline-color-on-color);
 }
+
 p {
   font-family: var(--paragraph-font);
   color: var(--paragraph-color-on-white);
@@ -80,6 +80,7 @@ p {
   width: 25%;
   height: 3em;
 }
+
 .primary {
   background-color: var(--primary-color);
 }
@@ -92,10 +93,12 @@ p {
 .accent2{
   background-color: var(--accent2-color);
 }
+
 p.colored {
   background-color: var(--paragraph-background-color);
   color: var(--paragraph-color-on-color);
 }
+
 nav {
   background-color: var(--nav-background-color);
   line-height: 3em;
@@ -105,12 +108,14 @@ nav {
 nav  {
   list-style-type: none;
   display: flex;
+
 }
 nav a {
   padding:1em;
   min-width: 120px;
   text-decoration: none;
   padding: 10px;
+
 }
 nav a:link, nav a:visited {
   color: var(--nav-link-color);
@@ -119,6 +124,7 @@ nav a:hover {
   color: var(--nav-hover-link-color);
   background-color: var(--nav-hover-background-color);
 }
+
 .sitemap {
   display: grid;
   justify-content: center;
@@ -131,7 +137,9 @@ nav a:hover {
     "page2 page2 . . page3 page3";
 }
 .sitemap > div {
+
   text-align: center;
+
 }
 .sm-home {
   grid-area: home;
@@ -148,15 +156,18 @@ nav a:hover {
   background-color: #ccc;
   line-height: 3em;
 }
+
 .top {
   grid-area: top;
   border-left: 1px solid;
 }
+
 .left {
   grid-area: left;
   border-top: 1px solid;
   border-left: 1px solid;
 }
+
 .right {
   grid-area: right;
   border-top: 1px solid;
