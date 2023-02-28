@@ -264,3 +264,26 @@ footer p {
         margin-top: 25px;
     }
 }
+
+#faq-page {
+    display: inline;
+    text-align: center;
+}
+
+#faq-page h1 {
+    font-size: 4em;
+}
+
+#faq-answers {
+    max-width: 70%;
+    margin: 0 auto;
+}
+#faq-links a {
+    color: red;
+    text-decoration: none;
+}
+#faq-links a :hover {
+    background-color:#01001D;
+    color: #fcfbfb;
+    text-decoration: none;
+}
