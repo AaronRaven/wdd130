@@ -277,7 +277,21 @@ footer p {
 #faq-answers {
     max-width: 70%;
     margin: 0 auto;
+
+
+
 }
+/* 
+the css code for simple grid. It's alright, I guess. I like without grid more, thought.
+#faq-answers {
+    display: grid;
+	grid-template-rows: auto auto auto;
+	grid-template-columns: auto auto;
+    max-width: auto;
+    grid-gap: 100px;
+    }
+*/
+
 #faq-links a {
     color: red;
     text-decoration: none;
