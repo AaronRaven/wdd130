@@ -267,7 +267,7 @@ footer p {
 
 #faq-page {
     display: inline;
-    text-align: center;
+    text-align: left;
 }
 
 #faq-page h1 {
@@ -292,6 +292,10 @@ the css code for simple grid. It's alright, I guess. I like without grid more, t
     }
 */
 
+#faq-links {
+border: 2px solid blue;
+border-radius: 5px;
+}
 #faq-links a {
     color: red;
     text-decoration: none;
@@ -300,4 +304,10 @@ the css code for simple grid. It's alright, I guess. I like without grid more, t
     background-color:#01001D;
     color: #fcfbfb;
     text-decoration: none;
+}
+
+#hero-box-two {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
 }
