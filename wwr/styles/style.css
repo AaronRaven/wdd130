@@ -92,12 +92,7 @@ body nav {
     max-width: 1600px;
     margin: 0 auto;
   }
-nav a{
-    color: #01001D;
-    text-align: center;
-    text-decoration: none;
-    padding: 35px;
-  }
+
 #hero-msg h1, #hero-msg h4{
     text-align: center;
   }

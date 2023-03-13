@@ -1,0 +1,120 @@
+#navigation
+{
+    background-color: #C4A484;
+    color: #01001D;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+nav 
+{
+    display: flex;
+    justify-content: space-around;
+}
+nav a:hover
+{
+    background-color:#5F5143;
+    color: #FFFAFA;
+    text-decoration: none;
+}
+nav a{
+    color: #01001D;
+    font-family: "Fira Sans";
+    text-align: center;
+    text-decoration: none;
+    padding: 35px;
+  }
+.logo
+  {
+      width: 80px;
+  } 
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+
+
+h1, h2
+{
+    font-family: "Fira Sans";
+}
+body{
+    font-family:"RocknRoll One", Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+body nav {
+    font-family: "Fira Sans";
+    font-size: 1.5em;
+    
+}
+nav a{
+    color: #01001D;
+    text-align: center;
+    text-decoration: none;
+    padding: 35px;
+  }
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+#goodness-motto,#about
+{
+    text-align: center;
+}
+
+#grid-in-index
+{
+    display: grid;
+    column-gap: 50px;
+    grid-template-columns: auto auto;
+}
+
+#grid-in-index :hover
+{
+    background-color: #5F5143;
+    font-family: "Fira Sans";
+    color: #FFFAFA;
+    text-decoration: none;
+}
+
+#grid-in-index a
+{
+    color:#01001D;
+    font-family: "Fira Sans";
+    text-decoration: none;
+}
+
+
+footer
+{
+    background-color:#C4A484;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer .social img
+{
+    padding-top: 15px;
+}
+footer a
+{
+    font-family: "RocknRoll One", Helvetica, sans-serif;
+    color: #01001D;
+    text-decoration: none;
+}
+
+footer p {
+    text-align: center;
+    font-size: 1.2em;
+} 
+footer p a:hover {
+    color: #FFFAFA;
+    background-color: #5F5143;
+    text-decoration: underline;
+}    
