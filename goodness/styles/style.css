@@ -35,12 +35,11 @@ nav a{
 
 
 
-h1, h2
+h1,h2, h4
 {
     font-family: "Fira Sans";
 }
 body{
-    font-family:"RocknRoll One", Helvetica, sans-serif;
     font-size: 22px;
     margin: 0;
     padding: 0;
@@ -65,12 +64,19 @@ nav a{
 {
     text-align: center;
 }
+#goodness-motto,#about p
+{
+    font-family:"RocknRoll One", Helvetica, sans-serif;
+    text-align: center;
+}
+
 
 #grid-in-index
 {
     display: grid;
-    column-gap: 50px;
+    column-gap: auto;
     grid-template-columns: auto auto;
+    max-width: 1600px;
 }
 
 #grid-in-index :hover
@@ -118,3 +124,38 @@ footer p a:hover {
     background-color: #5F5143;
     text-decoration: underline;
 }    
+
+
+
+
+@media screen and (max-width: 900px) {
+    #content {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    #goodness-motto,#about {
+        font-size: 25px;
+    }
+    #background {
+        display: none;
+    }
+    #grid-in-index {
+        width: 50%;
+        display: block;
+        margin: 0 auto;
+    }
+    #grid-in-index img
+    {
+        width: 75%;
+        margin: 50px auto;
+    }
+    footer {
+        margin-top: 25px;
+    }
