@@ -1,3 +1,4 @@
+/* header */
 #navigation
 {
     background-color: #C4A484;
@@ -34,7 +35,7 @@ nav a{
 }
 
 
-
+/* Main body */
 h1,h2, h4
 {
     font-family: "Fira Sans";
@@ -74,9 +75,10 @@ nav a{
 #grid-in-index
 {
     display: grid;
-    column-gap: auto;
     grid-template-columns: auto auto;
     max-width: 1600px;
+    font-family: "Fira Sans";
+
 }
 
 #grid-in-index :hover
@@ -84,7 +86,7 @@ nav a{
     background-color: #5F5143;
     font-family: "Fira Sans";
     color: #FFFAFA;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 #grid-in-index a
@@ -94,7 +96,7 @@ nav a{
     text-decoration: none;
 }
 
-
+/* footer */
 footer
 {
     background-color:#C4A484;
@@ -147,7 +149,7 @@ footer p a:hover {
         display: none;
     }
     #grid-in-index {
-        width: 50%;
+        width: 75%;
         display: block;
         margin: 0 auto;
     }
@@ -159,3 +161,4 @@ footer p a:hover {
     footer {
         margin-top: 25px;
     }
+}
