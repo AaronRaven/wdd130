@@ -78,7 +78,13 @@ nav a{
     grid-template-columns: auto auto;
     max-width: 1600px;
     font-family: "Fira Sans";
+    grid-gap: 7px;
 
+}
+
+#grid-in-index img:hover {
+    opacity: .6;
+    transform: scale(1.1);
 }
 
 #grid-in-index :hover
@@ -127,9 +133,90 @@ footer p a:hover {
     text-decoration: underline;
 }    
 
+/* Picture  Page */
+#pictures-grid{
+	display: grid;
+	grid-template-rows: auto auto auto;
+	grid-template-columns: auto auto;
+    grid-gap: 7px;
+}
+
+#pictures-grid img:hover {
+    opacity: .3;
+    transform: scale(0.6);
+}
+
+/* Contact Us Page */
+
+/* Style inputs, select elements and textareas */
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 18px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+  }
+  
+  /* Style the label to display next to the inputs */
+  label {
+    padding: 12px 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  /* Style the submit button */
+  input[type=submit] {
+    background-color: #C4A484;
+    color: #01001D;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  input:hover{
+    background-color:#5F5143;
+    color: #FFFAFA;
+    text-decoration: none;
+}
+  /* Style the form(originally named container) */
+  .form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  /* Floating column for labels: 25% width */
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  /* Floating column for inputs: 75% width */
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 900px(original was 600px) wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 900px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
 
 
-
+/* Size control*/
 @media screen and (max-width: 900px) {
     #content {
         display: block;
@@ -158,7 +245,20 @@ footer p a:hover {
         width: 75%;
         margin: 50px auto;
     }
+
+    #pictures-grid
+    {
+        width: 75%;
+        display: block;
+        margin: 0 auto;
+    }
+    #pictures-grid img
+    {
+        width: 75%;
+        margin: 50px auto;
+    }
     footer {
         margin-top: 25px;
     }
 }
+
