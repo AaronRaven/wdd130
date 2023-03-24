@@ -84,7 +84,7 @@ nav a{
 
 #grid-in-index img:hover {
     opacity: .6;
-    transform: scale(1.1);
+    transform: scale(0.9);
 }
 
 #grid-in-index :hover
@@ -142,8 +142,8 @@ footer p a:hover {
 }
 
 #pictures-grid img:hover {
-    opacity: .3;
-    transform: scale(0.6);
+    opacity: .6;
+    transform: scale(0.9);
 }
 /* Quote  Page */
 #Goodness-quotes{
