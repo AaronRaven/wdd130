@@ -274,6 +274,9 @@ input[type=text], select, textarea{
     {
         width: 75%;
         margin: 50px auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     #pictures-grid
@@ -286,6 +289,9 @@ input[type=text], select, textarea{
     {
         width: 75%;
         margin: 50px auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
     footer {
         margin-top: 25px;
