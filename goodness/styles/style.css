@@ -89,9 +89,10 @@ nav a{
 
 #grid-in-index :hover
 {
-    background-color: #5F5143;
+    /* background-color: #5F5143;
+    color: #FFFAFA;*/
     font-family: "Fira Sans";
-    color: #FFFAFA;
+    color:#01001D;
     text-decoration: underline;
 }
 
