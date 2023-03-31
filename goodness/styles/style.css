@@ -26,7 +26,7 @@ nav a{
   }
 .logo
   {
-      width: 80px;
+      width: 95px;
   } 
 #logo_link {
     padding-top: 5px;
@@ -36,6 +36,18 @@ nav a{
 
 
 /* Main body */
+.index-page, .pictures-page,.quotes-page
+{
+    max-width: 1600px;
+    margin: 0;
+    padding: 0;
+}
+
+#about
+{
+    border: 0.2px solid #5F5143;
+    border-radius: 25% 10%;
+}
 h1,h2, h4
 {
     font-family: "Fira Sans";
@@ -78,7 +90,7 @@ nav a{
     grid-template-columns: auto auto;
     max-width: 1600px;
     font-family: "Fira Sans";
-    grid-gap: 7px;
+    grid-gap: 2px;
 
 }
 
